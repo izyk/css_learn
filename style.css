@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+body {
+	margin: 0;
+	padding: 0;
+}
+.row_header {
+    position: fixed;
+    top: 0;
+	height: 3em;
+	background: green;
+	width: 100%;
+	min-width: 30em;
+	z-index: 10000;
+}
+.row_main {
+    position: fixed;
+    top: 3em;
+    bottom: 3em;
+	width: 100%;
+	min-width: 30em;
+}
+.row_footer {
+    position:  fixed;
+	height: 3em;
+    bottom: 0;
+	background: blue;
+	width: 100%;
+	min-width: 30em;
+}
+.row_container {
+    position: relative;
+	margin: 0 auto;
+	padding: 0;
+	height: 100%;
+	min-width: 30em;
+	max-width: 60em;
+}
+.first_column {
+	position: absolute;
+	width: 12em;
+	left: 0;
+	top: 0;
+	height: 100%;
+	overflow: hidden;
+}
+.second_column {
+    position: absolute;
+    left: 12em;
+    top: 0;
+	min-width: 18em;
+	max-width: 48em;
+	height: 100%;
+	overflow: hidden;
+}
+.main_container {
+	background: red;
+	height: 100%;
+	z-index: 100;
+	overflow: auto;
+}
