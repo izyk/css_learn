@@ -14,7 +14,7 @@ body {
 }
 .header {
 	position: static;
-	max-width: 60em;	/* Main width */
+	max-width: 60em;	/* Header width */
 	margin: auto;
 }
 .logo_container {
@@ -59,6 +59,6 @@ body {
 }
 .footer {
 	position: static;
-	max-width: 60em;	/* Main width */
+	max-width: 60em;	/* Footer width */
 	margin: auto;
 }
